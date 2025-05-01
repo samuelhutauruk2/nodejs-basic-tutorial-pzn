@@ -6,5 +6,5 @@ console.log(new Date());
 console.log(value);
 
 for await (const data of timer.setInterval(1000, 'Hello again')) {
-    console.log(data);
+    console.log(`Start time at ${new Date()}: ${data}`);
 }
